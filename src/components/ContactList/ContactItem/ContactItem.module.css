@@ -1,0 +1,45 @@
+.item {
+  width: 500px;
+  font-family: "Trebuchet MS", "Lucida Sans";
+  padding: 7px 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border-left: 10px solid #f05d22;
+  box-shadow: 2px -2px 5px 0 rgba(0, 0, 0, 0.1),
+    -2px -2px 5px 0 rgba(0, 0, 0, 0.1), 2px 2px 5px 0 rgba(0, 0, 0, 0.1),
+    -2px 2px 5px 0 rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  letter-spacing: 2px;
+  transition: 0.3s all linear;
+  margin: 0 auto;
+}
+
+.item:hover {
+  border-left: 10px solid transparent;
+  border-right: 10px solid #f05d22;
+}
+
+.text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  font-weight: 700;
+  color: rgba(46, 44, 42, 0.849);
+  text-decoration: none;
+  padding: 0.8em 1em calc(0.8em + 3px);
+  border-radius: 3px;
+  background: rgb(64, 199, 129);
+  box-shadow: 0 -3px rgb(53, 167, 110) inset;
+  transition: 0.2s;
+}
+
+.button:hover {
+  background: rgb(53, 167, 110);
+}
+
+.button:active {
+  background: rgb(33, 147, 90);
+  box-shadow: 0 3px rgb(33, 147, 90) inset;
+}

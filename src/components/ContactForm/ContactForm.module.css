@@ -1,0 +1,91 @@
+form {
+  margin: 0 auto;
+  max-width: 500px;
+  padding: 30px 30px 6px 30px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background-clip: padding-box;
+  background: rgba(28, 50, 90, 0.5);
+  box-shadow: 0 0 13px 3px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.label {
+  font-family: "Trebuchet MS", "Lucida Sans";
+  font-weight: 600;
+  font-size: 34px;
+}
+
+input {
+  width: 90%;
+  height: 48px;
+  border: 1px solid rgba(255, 255, 255, 0.342);
+  border-radius: 4px;
+  background-clip: padding-box;
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+}
+button {
+  cursor: pointer;
+}
+input.name {
+  background: rgba(148, 204, 226, 0.4);
+  padding-left: 25px;
+}
+input.number {
+  background: rgba(148, 204, 226, 0.4);
+  padding-left: 25px;
+}
+
+input:focus {
+  background-color: rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 5px 1px rgba(255, 255, 255, 0.5);
+  overflow: hidden;
+}
+
+.button {
+  width: 138px;
+  height: 44px;
+  border-radius: 4px;
+  float: right;
+  border: 1px solid #253737;
+  background: #416b68;
+  background: -ms-linear-gradient(top, #6da5a3, #416b68);
+  background: -o-linear-gradient(top, #6da5a3, #416b68);
+  background-image: -ms-linear-gradient(top, #6da5a3 0%, #416b68 100%);
+  padding: 10.5px 21px;
+  border-radius: 6px;
+  box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0,
+    inset rgba(255, 255, 255, 0.7) 0 1px 0;
+  text-shadow: #333333 0 1px 0;
+  color: #e1e1e1;
+}
+
+.button:hover {
+  border: 1px solid #253737;
+  text-shadow: #333333 0 1px 0;
+  background: #416b68;
+  background: -ms-linear-gradient(top, #77b2b0, #416b68);
+  background-image: -ms-linear-gradient(top, #77b2b0 0%, #416b68 100%);
+  color: #fff;
+}
+
+.button:active {
+  margin-top: 1px;
+  text-shadow: #333333 0 -1px 0;
+  border: 1px solid #333333;
+  background: #ffcc00;
+  background: -ms-linear-gradient(top, #ffcc00, #ff6600);
+  background-image: -ms-linear-gradient(top, #ffcc00 0%, #ff6600 100%);
+  color: #fff;
+  box-shadow: rgba(255, 255, 255, 0) 0 1px 0,
+    inset rgba(255, 255, 255, 0.7) 0 1px 0;
+  outline: none;
+}
